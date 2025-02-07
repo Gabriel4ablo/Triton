@@ -71,9 +71,9 @@
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: sticky; /* Alterado de sticky para fixed */
+  width: 100%; /* Mantém a largura total */
 }
 
 .navButtons {
@@ -291,3 +291,15 @@ ion-card {
 ion-item {
   margin: 0.5em;
 }
+
+ion-content {
+  max-height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+ 
+
