@@ -1,27 +1,29 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-buttons slot="start">
-      <ion-menu-button class="menuButton"></ion-menu-button>
-      <button class="homeButton" (click)="homeButtonClicked()">
-        <img src="../../assets/Images/Menu_Icons/Home.svg" height="20em" />
-      </button>
-      <img class="headerLogo" />
-    </ion-buttons>
 
-    <ion-title class="homeTitle">{{ 'home.title' | translate }}</ion-title>
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button class="menuButton"></ion-menu-button>
+        <button class="homeButton" (click)="homeButtonClicked()">
+          <img src="../../assets/Images/Menu_Icons/Home.svg" height="20em" />
+        </button>
+        <img class="headerLogo" />
+      </ion-buttons>
 
-    <ion-buttons slot="end">
-      <ion-searchbar
-        id="searchInput"
-        class="custom"
-        placeholder="{{ 'home.search' | translate }}"
-        autocomplete="off"
-        (ionInput)="search()"
-      ></ion-searchbar>
-      <img class="rightHeaderImg" src="../../assets/Images/Logo_4B.png" />
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
+      <ion-title class="homeTitle">{{ 'home.title' | translate }}</ion-title>
+
+      <ion-buttons slot="end">
+        <ion-searchbar
+          id="searchInput"
+          class="custom"
+          placeholder="{{ 'home.search' | translate }}"
+          autocomplete="off"
+          (ionInput)="search()"
+        ></ion-searchbar>
+        <img class="rightHeaderImg" src="../../assets/Images/Logo_4B.png" />
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
 
 <ion-content>
   <ion-menu contentId="main-content">
@@ -52,7 +54,7 @@
       >
     </ion-content>
   </ion-menu>
-  <div class="container">
+  <div>
     <div class="nav-container">
       <div class="breadcrumb" *ngIf="breadcrumbs.length > 0">
         <ng-container *ngFor="let breadcrumb of breadcrumbs; let i = index">
@@ -98,7 +100,7 @@
     <div *ngIf="noItemsFound" class="no-items-message">
       <p class="errorMessage">{{ 'home.noItemFound' | translate }}</p>
     </div>
-    <div class="containerConteudo">
+    <div>
       <ng-container *ngFor="let item of currentContent">
         <div class="containerWrapper">
           <div class="gridContainer">

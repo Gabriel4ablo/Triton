@@ -72,9 +72,14 @@
 .nav-container {
   display: flex;
   align-items: center;
-  position: sticky; /* Alterado de sticky para fixed */
-  width: 100%; /* Mantém a largura total */
+  position: sticky;
+  top: 0; 
+  z-index: 10; 
+  background: rgb(242, 242, 242); 
+  width: 100%;
+
 }
+
 
 .navButtons {
   margin: 0;
@@ -292,14 +297,6 @@ ion-item {
   margin: 0.5em;
 }
 
-ion-content {
-  max-height: 100%;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
 
  
 
