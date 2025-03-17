@@ -1,21 +1,37 @@
 {
   "home": {
     "title": "CDUC Portal",
-    "description": "(Capacity, Performance, Usage, and Cost)",
-    "details": "Portal aiming to consolidate all views, dashboards, reports, and access to modules and information developed by CESTI65 along with CAIXA's Capacity teams.",
-    "about":"About",
-    "settings":"Settings",
-    "darkmode":"Dark Mode",
+    "description": "Portal aiming to consolidate all views, dashboards, reports, and access to modules and information developed by CESTI65 along with CAIXA's Capacity teams.",
+    "about": "About",
+    "settings": "Settings",
+    "darkmode": "Dark Mode",
     "noItemFound": "No Item Found",
-    "language":"Language",
+    "language": "Language",
     "search": "Search",
-    "update": "Update Frequency: "
+    "update": "Update Frequency: ",
+    "close": "Close",
+    "cancel": "Cancel",
+    "filter": "Filter",
+    "production": "Production",
+    "non_production": "Non-Production",
+    "cecs": "Quantity of CEC's",
+    "lpars": "Quantity of Lpars",
+    "sisplex": "Quantity of SISPLEX",
+    "total_mips": "Mips Total ",
+    "total_msu": "MSU Total",
+    "msuPerMonth": "MSU Consumption per Month",
+    "consumption": "Consumption by Business"
   },
-  "time":{
+  "time": {
     "years": "Yearly",
     "months": "Monthly",
     "weeks": "Weekly",
     "semester": "Semestral",
     "days": "Daily"
+  },
+  "filter": {
+    "title": "Title",
+    "description": "Description",
+    "url": "URL"
   }
 }

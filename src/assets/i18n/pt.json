@@ -1,15 +1,26 @@
 {
   "home": {
     "title": "Portal CDUC",
-    "description": "(Capacidade, Desempenho, Uso e Custo)",
-    "details": "Portal que visa agregar todas as visões, dashboards, relatórios e acessos aos módulos e informações desenvolvidas pela CESTI65 juntamente com as equipes de Capacidade CAIXA.",
+    "description": "Portal que visa agregar todas as visões, dashboards, relatórios e acessos aos módulos e informações desenvolvidas pela CESTI65 juntamente com as equipes de Capacidade CAIXA.",
     "about":"Sobre",
     "settings":"Configurações",
     "darkmode":"Modo Escuro",
     "noItemFound": "Nenhum Item Encontrado",
     "language":"Idioma",
     "search": "Pesquisar",
-    "update": "Frequência de atualização: "
+    "update": "Frequência de atualização: ",
+    "close": "Fechar",
+    "cancel": "Cancelar",
+    "filter": "Filtros",
+    "production": "Produção",
+    "nonProduction": "Não-Produção",
+    "cecs": "Quantidade de CEC's",
+    "lpars": "Quantidade de Lpars",
+    "sisplex": "Quantidade de SISPLEX",
+    "totalMips": "Total Mips",
+    "totalMsu": "Total MSU",
+    "msuPerMonth": "Consumo de MSU por mês",
+    "consumption": "Consumo por Negócio"
   },
   "time":{
     "years": "Anual",
@@ -17,5 +28,10 @@
     "weeks": "Semanal",
     "semester": "Semi-Annual",
     "days": "Diaária"
+  },
+  "filter": {
+    "title":"Título",
+    "description":"Descrição",
+    "url":"URL"
   }
 }
